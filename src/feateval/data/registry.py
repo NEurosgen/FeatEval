@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-DataGetter = Callable[[],Tuple[Any,np.nparray]]
+DataGetter = Callable[[],Tuple[Any,np.ndarray]]
 
 class Registry:
     def __init__ (self):
